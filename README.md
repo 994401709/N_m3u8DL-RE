@@ -270,32 +270,7 @@ More Help:
 
 </details>
 
-## 运行截图
-
-### 点播
-
-![RE1](img/RE.gif)
-
-还可以并行下载+自动混流
-
-![RE2](img/RE2.gif)
-
-### 直播
-
-录制TS直播源：
-
-[click to show gif](http://pan.iqiyi.com/file/paopao/W0LfmaMRvuA--uCdOpZ1cldM5JCVhMfIm7KFqr4oKCz80jLn0bBb-9PWmeCFZ-qHpAaQydQ1zk-CHYT_UbRLtw.gif)
-
-录制MPD直播源：
-
-[click to show gif](http://pan.iqiyi.com/file/paopao/nmAV5MOh0yIyHhnxdgM_6th_p2nqrFsM4k-o3cUPwUa8Eh8QOU4uyPkLa_BlBrMa3GBnKWSk8rOaUwbsjKN14g.gif)
-
-录制过程中，借助ffmpeg完成对音视频的实时混流
-
-```
-ffmpeg -readrate 1 -i 2022-09-21_19-54-42_V.mp4 -i 2022-09-21_19-54-42_V.chi.m4a -c copy 2022-09-21_19-54-42_V.ts
-```
-
+## 其他
 从 v0.1.5 开始，可以尝试开启 `live-pipe-mux` 来代替以上命令
 
 > [!NOTE]

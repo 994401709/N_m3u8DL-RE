@@ -245,32 +245,7 @@ Examples:
 
 </details>
 
-## Screenshots
-
-### On-demand
-
-![RE1](img/RE.gif)
-
-Can also download in parallel and automatically mix streams
-
-![RE2](img/RE2.gif)
-
-### Live
-
-Record TS live source:
-
-[click to show gif](http://pan.iqiyi.com/file/paopao/W0LfmaMRvuA--uCdOpZ1cldM5JCVhMfIm7KFqr4oKCz80jLn0bBb-9PWmeCFZ-qHpAaQydQ1zk-CHYT_UbRLtw.gif)
-
-Record MPD live source:
-
-[click to show gif](http://pan.iqiyi.com/file/paopao/nmAV5MOh0yIyHhnxdgM_6th_p2nqrFsM4k-o3cUPwUa8Eh8QOU4uyPkLa_BlBrMa3GBnKWSk8rOaUwbsjKN14g.gif)
-
-During recording, use ffmpeg to mix audio and video in real time
-
-```bash
-ffmpeg -readrate 1 -i 2022-09-21_19-54-42_V.mp4 -i 2022-09-21_19-54-42_V.chi.m4a -c copy 2022-09-21_19-54-42_V.ts
-```
-
+## Others
 From v0.1.5, you can try to enable `live-pipe-mux` instead of the above command
 
 > [!NOTE]
